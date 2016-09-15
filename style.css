@@ -7,64 +7,61 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+
 /*
 * Noto Sans TC (Chinese_traditional) http://www.google.com/fonts/earlyaccess
  */
+
 @font-face {
-  font-family: 'Noto Sans TC';
-  font-style: normal;
-  font-weight: 100;
-  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 100;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
 }
+
 @font-face {
-  font-family: 'Noto Sans TC';
-  font-style: normal;
-  font-weight: 300;
-  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 300;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
 }
+
 @font-face {
-   font-family: 'Noto Sans TC';
-   font-style: normal;
-   font-weight: 400;
-   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
- }
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+}
+
 @font-face {
-   font-family: 'Noto Sans TC';
-   font-style: normal;
-   font-weight: 500;
-   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format('opentype');
- }
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 500;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format('opentype');
+}
+
 @font-face {
-   font-family: 'Noto Sans TC';
-   font-style: normal;
-   font-weight: 700;
-   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
- }
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+}
+
 @font-face {
-   font-family: 'Noto Sans TC';
-   font-style: normal;
-   font-weight: 900;
-   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
- }
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 900;
+    src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
+}
+
 
 /*
  *	Basic
  */
+
 body {
-  position: relative;
-  font-family: 'Noto Sans TC', sans-serif;
+    position: relative;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 p {
@@ -76,105 +73,255 @@ iframe {
     height: 45vw;
 }
 
-hr{
-	border-top: 1px solid hsla(10, 100%, 55%, 1);
+hr {
+    border-top: 1px solid hsla(10, 100%, 55%, 1);
 }
 
 svg:not(:root) {
-	margin-top: -80px;
-	overflow:overlay;
+    margin-top: -80px;
+    overflow: overlay;
 }
+
 
 /* 
  *	Common
  */
 
-.font-zh,.navbar a,.project p  {
+.font-zh,
+.navbar a,
+.project p {
     font-weight: 700;
 }
-.font-white,.project p {
-	color: #fff;
-}
-.font-dark,.navbar a{
-	color: rgba(0,0,0,0.8);
+
+.font-white,
+.project p {
+    color: #fff;
 }
 
-.text-center,.project p {
-	text-align: center;
+.font-dark,
+.navbar a {
+    color: rgba(0, 0, 0, 0.8);
 }
 
-.section-title{
-	margin: 60px 0;
+.text-center,
+.project p {
+    text-align: center;
 }
 
-.padding-vertical{
-	padding: 5% 0;
+.section-title {
+    margin: 60px 0;
 }
 
-.margin-vertical{
-	margin: 5% auto;
+.padding-vertical {
+    padding: 5% 0;
 }
 
-.absolute-center,.project p {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: auto;
+.margin-vertical {
+    margin: 5% auto;
 }
 
-.bg-gray,.procedure-list-item-active,.carousel-indicators li{
-	background-color: rgba(128,128,128,1);
+.absolute-center,
+.project p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
-.bg-orangeRed{
-	background-color: hsla(10, 100%, 55%, 1);
+.bg-gray,
+.procedure-list-item-active,
+.carousel-indicators li {
+    background-color: rgba(128, 128, 128, 1);
 }
+
+.bg-orangeRed {
+    background-color: hsla(10, 100%, 55%, 1);
+}
+
 
 /*
  *	Components
  */
 
+
 /* Header - Nav */
-.navbar{
-	min-height: 60px;
-	background-color: #e5e5e5;
-	box-shadow: 0 0 2px rgba(128,128,128,1);
+
+.navbar {
+    min-height: 60px;
+    background-color: #e5e5e5;
+    box-shadow: 0 0 2px rgba(128, 128, 128, 1);
 }
 
-.navbar img{
-	width: 150px;
+.navbar img {
+    width: 150px;
 }
 
-.navbar-brand{
-	position: absolute;
-	left: 0;
+.navbar-brand {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-brand>img {
+    display: inline-block;
+}
+
+.navbar-nav>li>a {
+    line-height: 30px;
+}
+
+.navbar-toggle {
+    margin-top: 13px;
+}
+
+
+/* Section - Banner */
+
+.banner {
+    /* margin-top: 60px; */
+}
+
+.carousel-indicators li {
+    border: 0;
+}
+
+.carousel-inner>.item>img {
+    width: 100%;
+}
+
+.carousel-control.left {
+    background: none;
+}
+
+.carousel-control.right {
+    background: none;
+}
+
+.carousel-inner>.item>img.slide-mobile {
+    display: none;
+}
+
+.glyphicon-chevron-left:before,.glyphicon-chevron-right:before  {
+    font-size: 50px;
+}
+
+
+.item {
+    height: 35vw;
+}
+
+.banner-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #002d49;
+}
+
+.banner-logo img{
 	width: 100%;
 }
 
-.navbar-brand>img{
-	display: inline-block;
+.banner-info {
+    width: 100%;
+    height: 100%;
+    padding: 2.5% 0;
+    background-color: #ea6120;
 }
 
-.navbar-nav>li>a{
-	line-height: 30px;
+.info-logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.navbar-toggle{
-	margin-top: 13px;
+.banner-info img {
+    width: 60%;
+    position: relative;
+    left: 15%;
 }
 
-/* Section - Banner */
-.banner{
-	/* margin-top: 60px; */
+.info-box {
+    height: 100%;
+    position: relative;
+    top: 5%;
 }
 
-.carousel-indicators li{
-	border: 0;
+.goal h2 {
+    line-height: 1;
+    font-size: 40px;
+    color: white;
 }
+
+.rate {
+    display: flex;
+    width: 85%;
+}
+
+.rate-item {
+    width: 33%;
+    display: inline-block;
+    padding: 0 3%;
+    text-align: center;
+}
+
+.rate-percent {
+    height: 65px;
+    margin: 10% 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.rate-percent p {
+    font-size: 30px;
+    line-height: 65px;
+}
+
+.account p {
+    font-size: 20px;
+    line-height: 65px;
+}
+
+.rate-text p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.donate-link {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.donate-link:hover {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.donate-link:focus {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.donate-btn {
+    width: 55%;
+    margin: 1% auto;
+    font-size: 25px;
+    line-height: 60px;
+    background-color: hsla(180, 100%, 7.5%, 1);
+    border-radius: 15px;
+    text-align: center;
+}
+
 
 /* Section - About us*/
+
 .quote {
-	width: 45%;
+    width: 45%;
     min-width: 300px;
     margin: 0 auto;
     padding: 1% 2.5%;
@@ -190,125 +337,149 @@ svg:not(:root) {
     padding: 0 10%;
 }
 
+
 /* Section - Quote List*/
 
-.grid{
-	margin: 0 auto;
-	width: 640px;
+.grid {
+    margin: 0 auto;
+    width: 640px;
 }
-.quote-box{
-	width: 320px;
+
+.quote-box {
+    width: 320px;
 }
 
 .quote-list {
-	padding: 2.5% 0;
+    padding: 2.5% 0;
 }
 
 
 /* Section - Project List */
-.project-list{
-	padding-bottom: 5%;
+
+.project-list {
+    padding-bottom: 5%;
 }
 
 .project-box {
-	position: relative;
+    position: relative;
     margin: 15px 0;
     background-size: cover;
     background-position: center;
-    box-shadow: 0 0 2px rgba(128,128,128,1);
+    box-shadow: 0 0 2px rgba(128, 128, 128, 1);
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
 }
 
-.project-box:hover{
-	transform: scale(1.05);
+.project-box:hover {
+    transform: scale(1.05);
 }
 
 .project p {
-	bottom: 20px;
-	text-shadow: 0 0 1px #333;
+    bottom: 20px;
+    text-shadow: 0 0 1px #333;
 }
+
 
 /* Section - Fund-list*/
 
-.fund-list{
-	background-color: hsla(180,100%,7.5%,1);
+.fund-list {
+    background-color: hsla(180, 100%, 7.5%, 1);
 }
 
-.fund-list-title{
-	margin: 3rem;
+.fund-list-title {
+    margin: 3rem;
 }
+
 
 /* Section - Project-procedure*/
-.project-procedure{
-	background-size: cover;
-	text-shadow: 0 0 1px #333;
-	-webkit-transition: 0.5s;
-	-o-transition: 0.5s;
-	transition: 0.5s;
+
+.project-procedure {
+    background-size: cover;
+    text-shadow: 0 0 1px #333;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
-.mask{
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.4);
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
-.procedure-list-item{
-	display: inline-block;
-	margin: 2px;
-	padding: 10px;
-	border-radius: 5px;
-	cursor: pointer;
-	-webkit-transition: 0.3s;
-	-o-transition: 0.3s;
-	transition: 0.3s;
+.procedure-list-item {
+    display: inline-block;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
-.procedure-list-item:hover{
-	background-color: rgba(128,128,128,0.8);
+.procedure-list-item:hover {
+    background-color: rgba(128, 128, 128, 0.8);
 }
 
-.procedure-action{
-	width: 50%;
+.procedure-action {
+    width: 50%;
 }
+
 
 /* Section - Rally*/
-.rally img{
-	width: 100%;
+
+.rally img {
+    width: 100%;
 }
 
 
 /* Footer */
 
-.nav-list{
-	padding: 5px;
+.nav-list {
+    padding: 5px;
 }
 
-.nav-list li{
-	margin: 5%;
-	display: inline-block;
+.nav-list li {
+    margin: 5%;
+    display: inline-block;
 }
 
-.nav-list a{
-	color: #fff;
+.nav-list a {
+    color: #fff;
 }
 
-.footer{
-	margin-top: 5rem;
-	background-color: hsla(180,100%,7.5%,1);
+.footer {
+    margin-top: 5rem;
+    background-color: hsla(180, 100%, 7.5%, 1);
 }
 
-.footer-logo img{
-	width: 25%;
+.footer-logo img {
+    width: 25%;
+    min-width: 200px;
+    margin:  1%;
 }
+
+.footer-copyright ul{
+    padding: 0;
+}
+
+.footer-copyright-item{
+    display:    inline-block;
+    margin: 0 5%;
+}
+
 
 /*
  *	Integrated
  */
-.fund li,.procedure-list li, .nav-list{
-	list-style: none;
+
+.fund li,
+.procedure-list li,
+.nav-list,
+.footer-copyright-item {
+    list-style: none;
 }
 
 
@@ -316,8 +487,52 @@ svg:not(:root) {
  *	Responsive
  */
 
- @media screen and (max-width: 650px) {
- 	.grid{
-		width: 320px;
- 	}
- }
+@media screen and (max-width: 991px) {
+    .item {
+        min-height: 85vw;
+    }
+    .banner-info {
+        height: auto;
+        padding: 40px 0;
+        margin: 0;
+    }
+    .banner-info img {
+        left: 0;
+        width: 40%;
+    }
+    .info-box {
+        text-align: center;
+    }
+    .rate {
+        margin: 0 auto;
+    }
+    .rate-text p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .grid {
+        width: 320px;
+    }
+    .item {
+        min-height: 540px;
+    }
+    .donate-btn {
+        padding: 5px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .account p {
+        font-size: 12px;
+    }
+    .glyphicon-chevron-left:before ,.glyphicon-chevron-right:before{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .rate-text p {
+        font-size: 15px;
+    }
+}

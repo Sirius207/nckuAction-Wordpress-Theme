@@ -57,6 +57,6 @@
 </section>
 
 <section id="rally" class="rally padding-vertical">
-    <img src="<?php bloginfo('template_directory') ?>/assets/image/rally.png" alt=""> 
+    <img src="<?php bloginfo('template_directory') ?>/assets/image/rally_v2.png" alt=""> 
 </section>
 <?php get_footer(); ?>

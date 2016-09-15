@@ -1,7 +1,17 @@
 <footer class="footer">
-    <div class="container">
+    <div class="container text-center">
         <div class="footer-logo">
             <img src="<?php bloginfo('template_directory') ?>/assets/image/logo.png">
+        </div>
+        <div class="footer-copyright">
+        	<ul>
+        		<li class="footer-copyright-item font-white">
+        			<p>TEL: 06-2757575 #50007</p>
+        		</li>
+        		<li class="footer-copyright-item font-white">
+        			<p>Email: nckuaction@gmail.com</p>
+        		</li>
+        	</ul>
         </div>
     </nav>
 </footer>

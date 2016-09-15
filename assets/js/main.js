@@ -6,7 +6,7 @@ $(document).ready(function() {
 function init(){
     /* Setup Carousel in Page: Index -> Section: About*/
     $('.carousel').carousel({
-        interval: 10000 //changes the speed
+        interval: 1000000 //changes the speed
     });
 
     /* Setup Fadein Slide in Page: Index -> Section: Project-procedure*/
