@@ -51,47 +51,18 @@ public function widget( $args, $instance ) { ?>
 		while ( $loop->have_posts() ) : $loop->the_post(); ?>
 		<div class="item active">
 			<div class="banner-logo">
-				<img src="<?php bloginfo('template_directory') ?>/assets/image/rect10.png" alt="logo">
+				<img src="<?php bloginfo('template_directory') ?>/assets/image/action8500_banner_text.png" alt="logo">
 			</div>
 		</div>
 		<div class="item">
-			<div class="row banner-info">
-				<div class="info-logo col-md-5 col-sm-12 col-xs-12">
-					<img src="<?php bloginfo('template_directory') ?>/assets/image/g10.png" alt="logo">
+			<div class="banner-info">
+				<div class="info-logo">
+					<img src="<?php bloginfo('template_directory') ?>/assets/image/action8500_banner_logo.png" alt="logo">
 				</div>
-				<div class="info-box col-md-7 col-sm-12 col-xs-12">
-					<div class="goal">
-						<h2>募款目標: 85,000,000</h2>
-					</div>
-					<div class="rate">
-						<div class="rate-item ">
-							<div class="rate-percent">
-								<p>15%</p>
-							</div>
-							<div class="rate-text">
-								<p>達成比<br>funded</p>
-							</div>
-						</div>
-						<div class="rate-item ">
-							<div class="rate-percent account">
-								<p>36,000,000</p>
-							</div>
-							<div class="rate-text">
-								<p>已募得<br>pledged</p>
-							</div>
-						</div>
-						<div class="rate-item ">
-							<div class="rate-percent">
-								<p>80</p>
-							</div>
-							<div class="rate-text">
-								<p>結案倒數<br>days to go</p>
-							</div>
-						</div>
-					</div>
-					<a href="" class="donate-link">
+				<div>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSe-P1KtZziu4DYNbKTMznU9tNwSFUzCO-0juaeI4ZJDl2L_iw/viewform?embedded=true" class="donate-link">
 						<div class="donate-btn">
-							我要贊助! DONATE NOW!>
+							我要登錄! <br>Register Now!
 						</div>
 					</a>
 				</div>

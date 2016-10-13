@@ -56,7 +56,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 /*
- *	Basic
+ *  Basic
  */
 
 body {
@@ -68,7 +68,7 @@ p {
     font-size: 1.5rem;
 }
 
-iframe {
+.video iframe {
     width: 100%;
     height: 45vw;
 }
@@ -84,7 +84,7 @@ svg:not(:root) {
 
 
 /* 
- *	Common
+ *  Common
  */
 
 .font-zh,
@@ -140,7 +140,7 @@ svg:not(:root) {
 
 
 /*
- *	Components
+ *  Components
  */
 
 
@@ -201,13 +201,13 @@ svg:not(:root) {
     display: none;
 }
 
-.glyphicon-chevron-left:before,.glyphicon-chevron-right:before  {
+.glyphicon-chevron-left:before,
+.glyphicon-chevron-right:before {
     font-size: 50px;
 }
 
-
 .item {
-    height: 35vw;
+    height: 38vw;
 }
 
 .banner-logo {
@@ -218,8 +218,8 @@ svg:not(:root) {
     background-color: #002d49;
 }
 
-.banner-logo img{
-	width: 100%;
+.banner-logo img {
+    width: 100%;
 }
 
 .banner-info {
@@ -230,16 +230,13 @@ svg:not(:root) {
 }
 
 .info-logo {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
+    margin: 2.5%;
+    text-align: center;
 }
 
 .banner-info img {
-    width: 60%;
-    position: relative;
-    left: 15%;
+    width: 20%;
 }
 
 .info-box {
@@ -286,35 +283,50 @@ svg:not(:root) {
 .rate-text p {
     color: #fff;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .donate-link {
     color: #fff;
-    font-weight: 300;
+    font-weight: 500;
     text-decoration: none;
 }
 
 .donate-link:hover {
     color: #fff;
-    font-weight: 300;
+    font-weight: 500;
     text-decoration: none;
 }
 
 .donate-link:focus {
     color: #fff;
-    font-weight: 300;
+    font-weight: 500;
     text-decoration: none;
 }
 
 .donate-btn {
-    width: 55%;
+    width: 340px;
     margin: 1% auto;
+    padding: 10px;
     font-size: 25px;
-    line-height: 60px;
+    line-height: 35px;
     background-color: hsla(180, 100%, 7.5%, 1);
     border-radius: 15px;
     text-align: center;
+    transition: 0.3s;
+}
+
+.donate-btn:hover {
+    background-color: hsla(180, 100%, 20%, 1);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.donate-btn:active {
+    background-color: hsla(180, 100%, 20%, 1);
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 
@@ -431,7 +443,7 @@ svg:not(:root) {
 /* Section - Rally*/
 
 .rally img {
-    width: 100%;
+    width: 95%;
 }
 
 
@@ -458,21 +470,21 @@ svg:not(:root) {
 .footer-logo img {
     width: 25%;
     min-width: 200px;
-    margin:  1%;
+    margin: 1%;
 }
 
-.footer-copyright ul{
+.footer-copyright ul {
     padding: 0;
 }
 
-.footer-copyright-item{
-    display:    inline-block;
+.footer-copyright-item {
+    display: inline-block;
     margin: 0 5%;
 }
 
 
 /*
- *	Integrated
+ *  Integrated
  */
 
 .fund li,
@@ -484,24 +496,28 @@ svg:not(:root) {
 
 
 /*
- *	Responsive
+ *  Responsive
  */
 
 @media screen and (max-width: 991px) {
     .item {
-        min-height: 85vw;
+        min-height: 50vw;
     }
     .banner-info {
         height: auto;
-        padding: 40px 0;
+        padding: 20px 0;
         margin: 0;
     }
     .banner-info img {
         left: 0;
-        width: 40%;
+        width: 30%;
+        min-width: 200px;
     }
     .info-box {
         text-align: center;
+    }
+    .donate-btn {
+        margin: 2.5% auto;
     }
     .rate {
         margin: 0 auto;
@@ -511,23 +527,28 @@ svg:not(:root) {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 710px) {
     .grid {
         width: 320px;
     }
     .item {
-        min-height: 540px;
+        min-height: 330px;
     }
     .donate-btn {
+        width: 50%;
         padding: 5px;
         font-size: 20px;
-        line-height: 40px;
+        line-height: 30px;
     }
     .account p {
         font-size: 12px;
     }
-    .glyphicon-chevron-left:before ,.glyphicon-chevron-right:before{
+    .glyphicon-chevron-left:before,
+    .glyphicon-chevron-right:before {
         font-size: 25px;
+    }
+    .rally img {
+        width: 100%;
     }
 }
 
